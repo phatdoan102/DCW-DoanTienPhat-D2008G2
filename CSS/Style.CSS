@@ -1,0 +1,265 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Roboto:ital,wght@1,900&display=swap');
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+#wrappler{
+	width: 100%;
+}
+#header{
+	width: 100%;
+	background: #000000;
+	height: 100px;
+	overflow: hidden;
+	box-shadow: 0px 6px 8px -3px rgba(0,0,0,0.21);
+	margin-bottom: 100px;
+}
+.logo a:hover{
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  	-webkit-mask-size: 200%;
+  	animation: shine 1s infinite;
+}
+.menu a:hover{
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  	-webkit-mask-size: 200%;
+  	animation: shine 1s infinite;
+}
+.headcontainer{
+	width: 1000px;
+	line-height: 100px;
+}
+.container{
+	width: 1000px;
+}
+.logo{
+	width: 40%;
+	float:left;
+	overflow: hidden;
+}
+.logo a{
+	font-family: Roboto;
+	font-size: 50px;
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;	
+}
+.menu{
+	float: right;
+	overflow: hidden;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: Roboto;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #ffffff
+}
+.submenu{
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+.submenu h1{
+	font-family: Roboto;
+	font-weight: 600;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 0 0 50px 0;
+}
+#ex{
+	width: 300px;
+	height: 300px;
+	background:url("../Image/Main/Product1/campbell-3ZUsNJhi_Ik-unsplash-2.jpg");
+	float: left;
+	box-shadow: 10px 12px 28px -8px rgba(0,0,0,0.75);
+}
+#in{
+	width: 300px;
+	height: 300px;
+	background:url("../Image/Main/Product1/oliur-ovrOPhu8vSw-unsplash-2.jpg");
+	float: left;
+	margin-left: 50px;
+	box-shadow: 10px 12px 28px -8px rgba(0,0,0,0.75);
+}
+#acc{
+	width: 300px;
+	height: 300px;
+	background:url("../Image/Main/Product1/car-wheel-2.jpg");
+	float: right;
+	box-shadow: 10px 12px 28px -8px rgba(0,0,0,0.75);
+}
+.producttext a{
+	font-family: Roboto;
+	text-decoration: none;
+	color: #181c16;
+	text-transform: capitalize;
+	background-color: #c5a173;
+	padding: 10px;
+	line-height: 500px;
+}
+.subbox2{
+	margin: 0 0 50px;
+	display: inline-flex;
+	flex-wrap: nowrap;
+}
+#mb{
+	width: 300px;
+	height: 300px;
+	background:url("../Image/Main/Car Supported/tim-meyer-pS_TT4vE9o0-unsplash-2.jpg");
+	margin: 0;
+	box-shadow: 10px 12px 28px -8px rgba(0,0,0,0.75);
+}
+#porsche{
+	width: 300px;
+	height: 300px;
+	background:url("../Image/Main/Car Supported/justus-menke-K7Sr4YDtL2U-unsplash-2.jpg");
+	margin: 0;
+	box-shadow: 10px 12px 28px -8px rgba(0,0,0,0.75);
+}
+#bmw{
+	width: 300px;
+	height: 300px;
+	background:url("../Image/Main/Car Supported/martin-katler-AvuK9LPk2eg-unsplash-2.jpg");
+	margin: 0;
+	box-shadow: 10px 12px 28px -8px rgba(0,0,0,0.75);
+}
+.content{
+	font-family: Open Sans;
+	font-size: 20px;
+	line-height: 300px;
+	margin-left: 50px;
+}
+.banner{
+	width: 100%;
+	height: 100px;
+	background-color: #cf0015;
+}
+.textbox{
+	text-align: center;
+	line-height: 100px;
+}
+.textbox h1 a{
+	font-family: Roboto;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+}
+.textbox h1 a:hover{
+	color: #ffffff;
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 0%, #000 50%, rgba(0,0,0,.6) 100%);
+  	-webkit-mask-size: 200%;
+  	animation: shine 1s infinite;
+}
+.sticker{
+	width: 30%;
+	height: 100%;
+}
+.story{
+	background-color: #000000;
+	width: 100%;
+	height: 1325px;
+	overflow: hidden;
+}
+.banner2{
+	width: 650px;
+	height: 1125px;
+	background:url("../Image/Main/Story/dhiva-krishna-YApS6TjKJ9c-unsplash.jpg");
+	float: left;
+	margin: 100px 0;
+}
+.storytext{
+	width: 300px;
+	height: 1125px;
+	float: right;
+	margin: 430px 0;
+}
+.storytext h1{
+	font-family: Roboto;
+	color: #cf0015;
+	border: solid;
+	padding: 5px;
+	text-transform: uppercase;
+}
+.storytext p{
+	font-family: Open Sans;
+	margin-top: 20px;
+	color: #ffffff;
+	font-size: 15px;
+	line-height: 25px;
+	text-align: justify;
+}
+.title{
+	width: 1000px;
+	height: 100px;
+	line-height: 100px;
+}
+.title1{
+	width: 650px;
+	text-align: center;
+	float: left;
+}
+.title2{
+	width: 300px;
+	text-align: center;
+	float: right;
+}
+.title1 h1{
+	font-family: Roboto;
+	text-transform: uppercase;
+}
+.title2 h1{
+	font-family: Roboto;
+	text-transform: uppercase;
+}
+.img{
+	width: 300px;
+	height: 420px;
+	float: right;
+	overflow: hidden;
+}
+#img1{
+	width: 300px;
+	height: 200px;
+	background:url("../Image/Main/Media/thanish-ahmed-7pAGe5OU5nk-unsplash.jpg");
+	margin-bottom: 20px;
+}
+#img2{
+	width: 300px;
+	height: 200px;
+	background:url("../Image/Main/Media/patrik-storm-alstra-pictures-5RSqU21ia7Q-unsplash.jpg");
+}
+hr{
+	margin: 10px 0;
+}
+#footer{
+	width: 100%;
+	height: 100px;
+	background: #000000;
+	overflow: hidden;
+	line-height: 100px;
+}
+.info{
+ float: right;
+}
+.info ul li{
+	color: #ffffff;
+	font-family: Open Sans;
+	font-size: 15px;
+}
+.image{
+	background:url("../Image/Header/campbell-3ZUsNJhi_Ik-unsplash.jpg")
+}
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
